@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daffodil Gmail Automation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Daffodil Gmail Automation</h1>
+<p class="sub">A personal command-line tool for one person's own Gmail account.</p>
+
+<h2>What it is</h2>
+<p>
+  A set of small command-line utilities that let their author work with his own
+  Gmail account from a personal Linux machine: searching mail, downloading
+  attachments, preparing drafts, and sending messages to a short, fixed list of
+  recipients.
+</p>
+<p>
+  It is not a product and not a service. There is one user, it runs on one
+  machine, and it has no web interface, no hosting, and no other users.
+</p>
+
+<h2>What it accesses</h2>
+<ul>
+  <li><code>gmail.readonly</code> — reading messages, to search mail and fetch attachments</li>
+  <li><code>gmail.compose</code> — creating drafts for review before they are sent</li>
+  <li><code>gmail.send</code> — sending, restricted to an allowlist of addresses</li>
+</ul>
+<p>
+  All access is to the account of the person who installed it. The tool cannot
+  reach any other account.
+</p>
+
+<h2>Where it runs</h2>
+<p>
+  On a single personal computer. Credentials are stored in a private directory
+  on that machine. Nothing is uploaded, hosted, or shared with anyone.
+</p>
+
+<hr>
+<footer>
+  <p>
+    <a href="privacy.html">Privacy policy</a> &nbsp;·&nbsp;
+    <a href="https://github.com/Tritonal75/daffodil-gmail-automation">Source of this page</a>
+  </p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Daffodil Gmail Automation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="sub">Daffodil Gmail Automation · last updated 5 September 2026</p>
+
+<h2>Summary</h2>
+<p>
+  Daffodil Gmail Automation is a personal command-line tool with a single user:
+  its author. It runs on his own computer and accesses only his own Gmail
+  account. It has no servers, no other users, and no third parties. No data
+  leaves the machine it runs on except in the ordinary course of talking to
+  Google's own Gmail API.
+</p>
+
+<h2>What data is accessed</h2>
+<p>
+  When the user runs a command, the tool may read messages, message metadata and
+  attachments from his own Gmail mailbox, create drafts in it, and send mail from
+  it. It accesses this data only while a command is running, and only in response
+  to the user starting that command. Nothing runs on a schedule against anyone
+  else's account, because there is no other account.
+</p>
+
+<h2>What data is stored</h2>
+<ul>
+  <li>
+    <strong>OAuth tokens</strong>, in a private directory on the user's own
+    machine, readable only by his operating system account. They exist so that he
+    does not have to sign in on every command.
+  </li>
+  <li>
+    <strong>Attachments</strong>, only when he explicitly asks for one to be
+    downloaded, and only to the folder he names.
+  </li>
+</ul>
+<p>
+  Message contents are not written to disk, not cached, and not retained after a
+  command finishes.
+</p>
+
+<h2>What data is shared</h2>
+<p>
+  None. There is no server, no database, no analytics, no telemetry, no logging
+  service, and no advertising. Data is never sold, transferred or disclosed to
+  anyone. The only network connections the tool makes are to Google's own
+  endpoints, to do what the user asked.
+</p>
+
+<h2>Google API Services User Data Policy</h2>
+<p>
+  This tool's use of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+  API Services User Data Policy</a>, including the Limited Use requirements.
+</p>
+
+<h2>Retention and removal</h2>
+<p>
+  Stored tokens can be deleted at any time by removing the tool's configuration
+  directory, which immediately ends its access. Access can also be revoked
+  independently at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>,
+  which invalidates the tokens whether or not the files are deleted.
+</p>
+
+<h2>Contact</h2>
+<p>
+  Questions about this policy can be raised at the
+  <a href="https://github.com/Tritonal75/daffodil-gmail-automation">project page</a>.
+</p>
+
+<hr>
+<footer><p><a href="index.html">← Back</a></p></footer>
+
+</body>
+</html>
